@@ -358,7 +358,7 @@ footer p {
     justify-content: center;
     align-items: center;
     text-align: center;
-    font-size: 40px;
+    font-size: 30px;
     text-wrap: wrap;
   }
   .tagline-box p {
@@ -466,7 +466,7 @@ textarea {
   background-color: rgb(255, 250, 94);
   align-items: center;
   justify-content: center;
-  padding: 100px;
+  padding: 30px 30px;
 }
 .clossing-argument h2 {
   justify-content: center;
