@@ -347,7 +347,7 @@ footer p {
     padding: auto; 
   }
   .slideshow-container {
-    margin: 50px 25px;
+    margin: 50px 25px 35px 25px;
   }
   .contact {
     display: flex;
@@ -360,7 +360,7 @@ footer p {
     box-sizing: border-box;
   }
   .order-box {
-    width: 400px;
+    width: 320px;
     padding: 30px;
     padding-left: 40px;
     text-wrap: wrap;
@@ -421,11 +421,43 @@ textarea {
   text-wrap: nowrap;
   color: white;
 }
+.review {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(255, 127, 80, 0.968);
+  padding: 7vw 0vw 7vw 0vw;
+  flex-direction: column;
+  box-sizing: border-box;
+}
 .tag {
-  font-size: 30px;
+  font-size: 20px;
   text-align: center;
   font-weight: 700;
   margin-bottom: 20px;
   font: italic;
+  box-sizing: border-box;
+}
+.clossing-argument {
+  width: 100%;
+  background-color: rgb(255, 250, 94);
+  align-items: center;
+  justify-content: center;
+  padding: 100px;
+}
+.clossing-argument h2 {
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-size: 30px;
+  text-wrap: wrap;
+}
+.clossing-argument p {
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 10px;
+  font-size: 15px;
+  text-wrap: wrap;
 }
 }
