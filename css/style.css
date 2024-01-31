@@ -346,6 +346,29 @@ footer p {
     /* border-bottom: 2px solid #333; */
     padding: auto; 
   }
+  .tagline-box {
+    width: 100%;
+    background-color: rgba(255, 243, 25, 0.758);
+    align-items: center;
+    justify-content: center;
+    padding: 80px 15px 80px 15px;
+    box-sizing: border-box;
+  }
+  .tagline-box h2 {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 40px;
+    text-wrap: wrap;
+  }
+  .tagline-box p {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 10px;
+    font-size: 15px;
+    text-wrap: wrap;
+  }
   .slideshow-container {
     margin: 50px 25px 35px 25px;
   }
