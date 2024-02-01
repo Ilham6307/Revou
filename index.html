@@ -62,16 +62,18 @@
         <div class="sub-text-buy">
           <p>Sales akan menghubungi anda 1x24 jam setelah data kami terima</p>
         </div>
+        <form action=""></form>
         <div class="input1">
           <label for="Name">Your Name:</label>
           <div class="kotakinput1">
             <input
               type="text"
-              id="Name"
+              id="input-name"
               name="Name"
               placeholder="First and last name"
               required
             />
+            <p id="name-error" class="pesan-error"></p>
           </div>
         </div>
         <div class="input1">
@@ -79,11 +81,12 @@
           <div class="kotakinput1">
             <input
               type="email"
-              id="Name"
+              id="input-email"
               name="email"
               placeholder="Example@email.com"
               required
             />
+            <p id="email-error" class="pesan-error"></p>
           </div>
         </div>
         <div class="input1">
@@ -98,7 +101,7 @@
           </div>
         </div>
         <div>
-          <button class="submit-button button1">Submit</button>
+          <button id="submit-button" class="submit-button">Submit</button>
         </div>
       </div>
     </div>
