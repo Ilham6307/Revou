@@ -95,7 +95,6 @@ header ul li a {
   border-radius: 20px;
   margin: 80px 20px;
   box-sizing: border-box;
-  
 }
 .mySlides {
   display: none;
@@ -117,7 +116,6 @@ img.slide-image {
   display: inline-block;
   transition: background-color 0.6s ease;
 }
-
 .active {
   background-color: #717171;
 }
@@ -208,7 +206,7 @@ textarea {
   transition-duration: 0.4s;
   cursor: pointer;
 }
-.button1 {
+.submit-button {
   background-color: white;
   color: black;
   border: 2px solid #04aa6d;
@@ -216,9 +214,17 @@ textarea {
   width: 8vw;
   text-wrap: wrap;
 }
-.button1:hover {
+.submit-button:hover {
   background-color: #04aa6d;
   color: white;
+}
+.pesan-error {
+  color: red;
+}
+.kotakinput1 p {
+  font-size: 15px;
+  font-weight: 600;
+  margin-top: 2px ;
 }
 .review {
   display: flex;
@@ -251,9 +257,7 @@ textarea {
   justify-content: space-around;
   flex-wrap: wrap;
   margin: 45px 0;
-
 }
-
 .card {
   width: 300px;
   padding: 20px;
@@ -371,6 +375,24 @@ footer p {
   }
   .slideshow-container {
     margin: 50px 25px 35px 25px;
+  }
+  .slideshow-container {
+    max-width: 1000px;
+    position: relative;
+    background-color: #ced5ca;
+    padding-bottom: 7px;
+    border-radius: 20px;
+    margin: 50px 20px;
+    box-sizing: border-box;
+  }
+  .dot {
+    height: 12px;
+    width: 12px;
+    margin: 0 0 4px 0;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
   }
   .contact {
     display: flex;
