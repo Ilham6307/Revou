@@ -238,9 +238,8 @@ textarea {
 }
 .review img {
   border-radius: 50%;
-  height: 10vw;
-  width: 10vw;
-  border: 0.3vw solid white;
+  width: 160px;
+  border: 7px solid white;
 }
 .review h3 {
   font-size: 22px;
@@ -251,7 +250,8 @@ textarea {
   display: flex;
   justify-content: space-around;
   flex-wrap: wrap;
-  margin: 20px 0;
+  margin: 45px 0;
+
 }
 
 .card {
@@ -281,10 +281,10 @@ textarea {
 }
 .our-package {
   font-weight: 500;
+  width: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
-  grid-column: 1/4;
   font-size: 25px;
   margin-bottom: 20px;
 }
@@ -452,6 +452,11 @@ textarea {
   padding: 7vw 0vw 7vw 0vw;
   flex-direction: column;
   box-sizing: border-box;
+}
+.review img {
+  border-radius: 50%;
+  width: 140px;
+  border: 7px solid white;
 }
 .tag {
   font-size: 20px;
